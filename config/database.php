@@ -1,8 +1,6 @@
 <?php
 
 return [
-    'host' => 'localhost',
-    'dbname' => '',
-    'username' => '',
-    'password' => ''
+    'driver' => 'sqlite',
+    'database' => __DIR__ . '/../database/blog.sqlite',
 ];
